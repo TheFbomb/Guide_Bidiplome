@@ -1,0 +1,1 @@
+Configure ton compilateur/éditeur pour qu'ils sortent tous les fichiers de compilation dans ce ficher. Le but est de garder un minimum d'organisation dans le projet: Des fichiers qui se baladent c'est moche et ca génèrent des erreurs.
