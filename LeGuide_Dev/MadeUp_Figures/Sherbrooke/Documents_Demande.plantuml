@@ -1,0 +1,50 @@
+@startuml
+
+title Pièces à fournir pour chaque documents \n
+
+class "Etudiant" as class1
+
+class CAQ {
+- Original du formulaire Déclaration, engagements et autorisations daté et signé
+- Original d'une photo d'identité
+- Photocopie lisible de votre passeport
+- Lettre d'admission de l'UdeS
+- Déclaration de soutien financier
+- Lettre d'emploi récente mentionnant le salaire de vos parents
+- Tout document faisant état de ses avoirs
+- Relevés récents de salaire
+- Avis de cotisation le plus récent à un régime d'imposition
+- Lettre de banque indiquant son solde actuel
+- Relevé bancaire des trois derniers mois l'identifiant comme titulaire du compte
+- Autorisation de transfert de fonds
+}
+
+class Permis_Etude {
+- CAQ
+- Scanne lisible de votre passeport
+- Scanne d'une photo d'identité
+- Lettre d'admission de l'UdeS
+- Document IMM1294
+- Lettre de banque indiquant son solde actuel
+- Relevé de banque indiquant son solde actuel
+- Document de renseignement sur la famille
+}
+
+class "Forumlaire_SE-401-Q-102" as classForm{
+- Formulaire SE 401-Q-102 vièrge ET pré-remplie
+- Passeport
+- Lettre d'admission de l'UdeS
+- Attestation d’affiliation délivrée par le régime étudiant.
+}
+
+class Bourse_ENVOLE {
+- Passeport
+- Lettre d'admission de l'UdeS
+}
+
+class1 "1" *-up- CAQ
+class1 "2" *-left- Permis_Etude
+class1 "3" *-right- classForm
+class1 "4" *-down- Bourse_ENVOLE
+
+@enduml

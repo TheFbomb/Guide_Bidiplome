@@ -1,0 +1,30 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+1.0
+ & 28.07.17
+ & \listset {COSNEAU Alexandre}
+ & Création\\
+1.1
+ & 20.08.17
+ & \listset {COSNEAU Alexandre}
+ & Ajout de la section Sherbrooke\\
+1.2
+ & 03.10.17
+ & \listset {COSNEAU Alexandre}
+ & Ajout de la section Sherbrooke WOL\\
+2.0
+ & 15.11.17
+ & \listset {COSNEAU Alexandre}
+ & Document final compilé\\
+2.0
+ & 18.11.17
+ & \listset {COSNEAU Alexandre}
+ & Document final poussé. Dossier dev créé\\
+2.1
+ & 09.01.18
+ & \listset {COSNEAU Alexandre}
+ & Correction minime automatique par Antidote 9.0.\\
+\end {longtable}
